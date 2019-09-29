@@ -1,8 +1,7 @@
-
-
 # plugfox_localstorage
-
-
+## FLUTTER FOR MOBILE AND WEB
+  
+  
 ### Description
 Simple cross-platform universal String Key-Value local storage, works on mobile and the web.  
 Has RAM caching. Great for small short values.  
