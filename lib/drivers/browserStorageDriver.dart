@@ -1,7 +1,7 @@
 import 'dart:html';
 import 'dart:async';
-import 'package:local_storage/drivers/baseStorageDriver.dart';
-export 'package:local_storage/drivers/baseStorageDriver.dart';
+import 'package:plugfox_localstorage/drivers/baseStorageDriver.dart';
+export 'package:plugfox_localstorage/drivers/baseStorageDriver.dart';
 
 StorageDriver createStorageDriver() => BrowserStorageDriver();
 

@@ -1,7 +1,7 @@
 import 'dart:async';
-import 'package:local_storage/drivers/baseStorageDriver.dart';
+import 'package:plugfox_localstorage/drivers/baseStorageDriver.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-export 'package:local_storage/drivers/baseStorageDriver.dart';
+export 'package:plugfox_localstorage/drivers/baseStorageDriver.dart';
 
 StorageDriver createStorageDriver() => MobileStorageDriver();
 

@@ -1,11 +1,11 @@
-library local_storage;
+library plugfox_localstorage;
 
 import 'dart:async';
-import 'package:local_storage/drivers/stubStorageDriver.dart'
+import 'package:plugfox_localstorage/drivers/stubStorageDriver.dart'
   // ignore: uri_does_not_exist
-  if (dart.library.html) 'package:local_storage/drivers/browserStorageDriver.dart'
+  if (dart.library.html) 'package:plugfox_localstorage/drivers/browserStorageDriver.dart'
   // ignore: uri_does_not_exist
-  if (dart.library.io) 'package:local_storage/drivers/mobileStorageDriver.dart';
+  if (dart.library.io) 'package:plugfox_localstorage/drivers/mobileStorageDriver.dart';
 
 class LocalStorage {
   final StorageDriver _lcl = createStorageDriver();

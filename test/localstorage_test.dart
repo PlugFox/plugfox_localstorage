@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:local_storage/local_storage.dart';
+import 'package:plugfox_localstorage/localstorage.dart';
 
 void main() {
   /*
