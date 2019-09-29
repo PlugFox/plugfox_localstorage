@@ -1,6 +1,7 @@
+FLUTTER FOR MOBILE AND WEB
+---
 # plugfox_localstorage
-## FLUTTER FOR MOBILE AND WEB
-  
+
   
 ### Description
 Simple cross-platform universal String Key-Value local storage, works on mobile and the web.  
@@ -17,10 +18,10 @@ Future<void> main() async {
     // Wait for initialization
     await storage.init();
     
-    // Set key
+    // Set value
     storage['sampleKey'] = 'sampleValue';
     // Get value
-    print(storage['sampleKey']); // 'sampleKey'
+    print(storage['sampleKey']); // 'sampleValue'
     
     // (optional) Close the storage - not necessary
     await storage.close();
