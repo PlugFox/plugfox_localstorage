@@ -1,6 +1,6 @@
 name: plugfox_localstorage
 description: Simple cross-platform universal String Key-Value local storage, works on mobile and the web. Has RAM caching. Great for small short values.
-version: 0.1.0
+version: 0.1.1
 homepage: https://plugfox.ru
 author: Plague Fox <plugfox@gmail.com>
 repository: https://github.com/PlugFox/plugfox_localstorage

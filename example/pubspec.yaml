@@ -1,0 +1,19 @@
+name: plugfox_localstorage_example
+description: Example plugfox_localstorage usage
+
+version: 1.0.0
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugfox_localstorage: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
